@@ -1,0 +1,159 @@
+.cartPage {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cartContents {
+  width: 65%;
+  background-color: rgba(213, 248, 245, 0.3);
+  height: 83vh;
+  border: 1px solid #bce8e5;
+  padding: 4vh 2vw;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cartItem {
+  display: flex;
+  gap: 3vw;
+}
+
+.cartItem img {
+  width: 25%;
+  height: 25vh;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.cartItem-data h4 {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 600;
+  color: #17615b;
+}
+
+.cartItem-data p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #4b7774;
+}
+
+.cartItem-data span h5 {
+  font-size: 0.9rem;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.cartItem-data span h5 b {
+  font-weight: 600;
+}
+
+.cartItem-inputs {
+  display: flex;
+  gap: 40px;
+  justify-content: start;
+  align-items: center;
+}
+
+.cartItem-inputs span p {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.cartItem-inputs div {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 5px;
+}
+
+.cartItem-inputs input {
+  max-width: 40px;
+  padding-left: 10px;
+  font-size: 0.7rem;
+  height: 20px;
+  border: 1px solid #bde1df;
+  border-radius: 4px;
+  background-color: #e5f8f6;
+  color: #1a5352;
+}
+
+.cartItem-inputs div button {
+  padding-bottom: 4px;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 4px;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.cartPriceBody {
+  width: 24%;
+  height: fit-content;
+  background-color: rgba(220, 252, 251, 0.4);
+  padding: 3vh 2vw;
+  border: 1px solid #b0e4e2;
+  border-radius: 0.3rem;
+}
+
+.cartPriceBody h4 {
+  margin-bottom: 3vh;
+  color: #145a54;
+}
+
+.cartPriceBody span {
+  display: flex;
+  justify-content: space-between;
+  color: #174e4b;
+}
+
+.cartPriceBody span b {
+  font-weight: 600;
+}
+
+.cartPriceBody span p {
+  margin-bottom: 10px;
+}
+
+.cartPriceBody h5 {
+  font-weight: 400;
+  color: #1c4040;
+}
+
+.cartPriceBody h5 b {
+  font-weight: 600;
+}
+
+.cartPriceBody button {
+  width: 100%;
+  padding: 13px 0;
+  font-weight: 600;
+  margin: 3vh 0;
+  background-color: #26a69a;
+  color: #f5fefe;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cartPriceBody button:hover {
+  background-color: #1f8f83;
+}
+
+.modal-body .checkout-address section {
+  display: flex;
+  gap: 3%;
+}
+
+.span-child-1 {
+  width: 65%;
+}

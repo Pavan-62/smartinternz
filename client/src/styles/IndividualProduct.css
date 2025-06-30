@@ -1,0 +1,143 @@
+.IndividualProduct-page {
+  margin-top: 15vh;
+}
+
+.IndividualProduct-page span {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #17615b;
+}
+
+.IndividualProduct-page span p {
+  padding-bottom: 3px;
+  margin: 0;
+  font-size: 1rem;
+  color: #4a7974;
+}
+
+.IndividualProduct-body {
+  display: flex;
+  margin-top: 3vh;
+}
+
+.IndividualProduct-body .carousel {
+  width: 40%;
+  margin: 0 5%;
+  height: 70vh;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  background-color: #f0fbfa;
+}
+
+.IndividualProduct-body .carousel img {
+  height: 70vh;
+  width: 50%;
+  object-fit: cover;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+  background-color: #7cd1c4c2;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.IndividualProduct-data {
+  margin-top: 1vh;
+  width: 46%;
+}
+
+.IndividualProduct-data h3 {
+  color: #145a54;
+}
+
+.IndividualProduct-data p {
+  color: #4c6f6b;
+}
+
+.IndividualProduct-data span {
+  margin: 0;
+  display: flex;
+  gap: 5px;
+}
+
+.IndividualProduct-data span h5 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #1a7471;
+}
+
+.IndividualProduct-data span h5 b {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.IndividualProduct-data span s {
+  color: #e3515c;
+  font-size: 1rem;
+}
+
+.IndividualProduct-data span p {
+  color: #118c8f;
+}
+
+.IndividualProduct-data h6 {
+  color: #456b65;
+  margin-top: 3vh;
+}
+
+.IndividualProduct-data h6 b {
+  font-weight: 600;
+}
+
+.IndividualProduct-data span label {
+  color: #2f6762;
+  font-size: 1.1rem;
+  margin-bottom: 3vh;
+}
+
+.IndividualProduct-data span select {
+  font-size: 1rem;
+  color: #118c8f;
+  margin-bottom: 2.5vh;
+}
+
+.IndividualProduct-data span select option {
+  color: #118c8f;
+}
+
+.productBuyingButtons {
+  margin-top: 10vh;
+  display: flex;
+  gap: 20px;
+}
+
+.productBuyingButtons button {
+  width: 200px;
+  padding: 10px 0;
+  font-weight: 500;
+  border: none;
+  border-radius: 0.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.productBuyingButtons button:first-child {
+  background-color: #26a69a;
+  color: #ffffff;
+}
+
+.productBuyingButtons button:first-child:hover {
+  background-color: #1f8f83;
+}
+
+.productBuyingButtons button:last-child {
+  background-color: #ff7043;
+  color: #ffffff;
+}
+
+.productBuyingButtons button:last-child:hover {
+  background-color: #e85d2d;
+}

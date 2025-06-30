@@ -1,0 +1,125 @@
+.new-product-page {
+  padding: 10rem;
+  background-color: #eaf8f7;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.new-product-container {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+}
+
+.new-product-container h3 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #134e4a;
+  font-size: 1.8rem;
+}
+
+.new-product-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.new-product-body span,
+.new-product-body section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.span-21,
+.span-22,
+.span-3 {
+  flex: 1 1 100%;
+}
+
+.form-floating input,
+.form-floating select {
+  border-radius: 8px;
+  border: 1px solid #a0d9d3;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #f3fcfb;
+  color: #125752;
+  transition: border-color 0.3s ease;
+}
+
+.form-floating input:focus,
+.form-floating select:focus {
+  border-color: #21a59c;
+  box-shadow: 0 0 5px rgba(33, 165, 156, 0.2);
+}
+
+.form-floating label {
+  color: #5a7c7a;
+  font-size: large;
+}
+
+.form-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 1.5rem;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.form-check-label {
+  font-size: 1rem;
+  color: #28514e;
+  cursor: pointer;
+}
+
+section h4 {
+  width: 100%;
+  font-size: 1.2rem;
+  color: #114843;
+  margin-bottom: 0.5rem;
+  border-bottom: 2px solid #c7f1ee;
+  padding-bottom: 0.3rem;
+}
+
+.btn-primary {
+  background-color: #21a59c;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #17867e;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .new-product-container {
+    padding: 1.5rem;
+  }
+
+  .new-product-body span,
+  .new-product-body section {
+    flex-direction: column;
+  }
+
+  .span-21,
+  .span-22,
+  .span-3 {
+    flex: 1 1 100%;
+  }
+}
